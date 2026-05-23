@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title">
+<title id="title">Книги, карточки и схема частей речи</title>
+<rect x="30" y="45" width="360" height="205" rx="28" fill="#EEF3FF"/>
+<rect x="65" y="84" width="112" height="142" rx="12" fill="#4F8CFF"/>
+<path d="M87 105h70M87 122h52" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+<rect x="196" y="72" width="150" height="58" rx="14" fill="#fff"/>
+<rect x="196" y="143" width="150" height="58" rx="14" fill="#fff"/>
+<circle cx="219" cy="101" r="12" fill="#FFB84D"/><circle cx="219" cy="172" r="12" fill="#8E7CFF"/>
+<path d="M245 95h76M245 108h50M245 166h76M245 179h62" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round"/>
+<path d="M160 64l16-20M180 73l27-12M63 72L44 57" stroke="#FFB84D" stroke-width="7" stroke-linecap="round"/>
+</svg>

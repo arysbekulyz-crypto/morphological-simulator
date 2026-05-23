@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title">
+<title id="title">Совёнок Знайка с книгой</title>
+<circle cx="110" cy="110" r="100" fill="#FFF0C9"/>
+<path d="M55 80Q56 38 93 52L110 35l17 17q37-14 38 28v53q0 48-55 48t-55-48z" fill="#FFB84D"/>
+<circle cx="85" cy="91" r="25" fill="#fff"/><circle cx="135" cy="91" r="25" fill="#fff"/>
+<circle cx="86" cy="92" r="10" fill="#3A3A3A"/><circle cx="134" cy="92" r="10" fill="#3A3A3A"/>
+<path d="M103 107l7 11 7-11z" fill="#F47A54"/>
+<path d="M63 137q47-16 94 0v34q-47-17-94 0z" fill="#6EC6FF" stroke="#3A3A3A" stroke-width="3"/>
+<path d="M110 138v34" stroke="#3A3A3A" stroke-width="3"/>
+</svg>
