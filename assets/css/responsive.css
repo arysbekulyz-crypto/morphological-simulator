@@ -1,0 +1,43 @@
+@media (max-width: 1030px) {
+  .topic-grid { grid-template-columns: repeat(2, 1fr); }
+  .exercise-grid { grid-template-columns: 1fr; }
+  .exercise-card { min-height: auto; }
+}
+@media (max-width: 860px) {
+  .container { width: min(100% - 28px, 1180px); }
+  .header-inner { padding: 10px 0; align-items: flex-start; flex-direction: column; }
+  .header-actions { width: 100%; }
+  .brand-text small { display: none; }
+  .hero-layout, .level-hero-layout, .learning-layout, .progress-summary { grid-template-columns: 1fr; }
+  .hero-visual { max-width: 430px; margin: 0 auto; }
+  .float-label.first { left: 8px; }
+  .float-label.second { right: 8px; }
+  .level-grid, .steps-grid { grid-template-columns: repeat(2, 1fr); }
+  .overall-chip { width: 126px; height: 126px; }
+  .topic-heading { flex-direction: column; align-items: stretch; }
+  .topic-progress { min-width: 0; }
+  .progress-topic { grid-template-columns: 1fr 100px; }
+  .progress-topic .mini-progress { grid-column: 1 / -1; margin: 0; }
+  .progress-topic .btn { grid-column: 1 / -1; }
+  .about-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .section { padding: 32px 0; }
+  .landing-hero { padding-top: 34px; }
+  .hero-copy h1 { letter-spacing: -.03em; }
+  .hero-visual { padding: 12px; }
+  .float-label { display: none; }
+  .level-grid, .steps-grid, .topic-grid, .visual-groups, .visual-pairs, .timeline { grid-template-columns: 1fr; }
+  .level-card { min-height: auto; }
+  .header-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .header-actions .level-pill { grid-column: 1 / -1; justify-self: start; }
+  .header-actions .nav-link, .header-actions .btn { width: 100%; font-size: .91rem; padding: 10px 8px; }
+  .breadcrumb { font-size: .88rem; }
+  .panel { padding: 17px; }
+  .visual-row { font-size: .91rem; }
+  .visual-row > div { padding: 9px 7px; overflow-wrap: anywhere; }
+  .sort-row, .match-row { grid-template-columns: 1fr; padding-bottom: 8px; }
+  .flow-arrow { display: none; }
+  .progress-topic { padding: 14px; }
+  .reset-row .btn { width: 100%; }
+}

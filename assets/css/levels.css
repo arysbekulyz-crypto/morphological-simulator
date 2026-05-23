@@ -1,0 +1,14 @@
+body[data-level="beginner"] .app-header { background: rgba(255,248,231,.94); }
+body[data-level="beginner"] .level-hero { background: radial-gradient(circle at 86% 20%, #fff0bd, transparent 26%); }
+body[data-level="beginner"] .topic-card, body[data-level="beginner"] .panel, body[data-level="beginner"] .exercise-card { border-width: 2px; }
+body[data-level="beginner"] .topic-card h3, body[data-level="beginner"] .exercise-card h3 { font-size: 1.16rem; }
+body[data-level="beginner"] .topic-icon { width: 48px; height: 48px; background: #fff0cf; border-radius: 15px; display: grid; place-items: center; }
+body[data-level="beginner"] .progress-fill { background: linear-gradient(90deg, #ffb84d, #7ed957); }
+body[data-level="beginner"] .visual-group:nth-child(2) { background: #e7f6ff; border-color: #bfe6ff; }
+body[data-level="beginner"] .overall-chip { background: conic-gradient(#ffb84d var(--percentage), #ffeaca 0); }
+body[data-level="researcher"] .level-hero { background: radial-gradient(circle at 90% 16%, #e7efff, transparent 30%); }
+body[data-level="researcher"] .progress-fill { background: linear-gradient(90deg, #4f8cff, #8e7cff); }
+body[data-level="expert"] .level-hero { border-bottom: 1px solid var(--border); }
+body[data-level="expert"] .panel, body[data-level="expert"] .exercise-card { border-radius: 15px; }
+body[data-level="expert"] .topic-card { border-radius: 14px; }
+body[data-level="expert"] .progress-fill { background: linear-gradient(90deg, #3b5bdb, #5f3dc4); }
