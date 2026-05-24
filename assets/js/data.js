@@ -28,6 +28,7 @@
             ] },
             examples: ['<b>Кто?</b> Кот мурлычет.', '<b>Что?</b> Книга лежит на столе.'],
             reflection: 'Запомни: если слово можно назвать вопросом «кто?» или «что?», перед тобой существительное.',
+            legacyAsset: 'assets/images/existing/beginner-noun.png',
             exercises: [
               { id: 'b-noun-1', type: 'single', title: 'Выбери существительное', instruction: 'Найди слово, которое называет предмет.', options: ['книга', 'читает', 'яркий'], answer: 'книга', hint: 'Предмет можно увидеть или взять в руки.' },
               { id: 'b-noun-2', type: 'sort', title: 'Кто? или что?', instruction: 'Для каждого слова выбери правильный вопрос.', groups: ['Кто?', 'Что?'], items: [{label:'учитель', answer:'Кто?'}, {label:'дом', answer:'Что?'}, {label:'птица', answer:'Кто?'}, {label:'мяч', answer:'Что?'}], hint: 'Люди и животные отвечают на вопрос «кто?». ' },
@@ -42,6 +43,7 @@
             visual: { type: 'pairs', pairs: [['🍎', 'красное яблоко'], ['⚽', 'большой мяч'], ['🐱', 'весёлый кот'], ['☁️', 'синее небо']] },
             examples: ['<b>Какое?</b> Красное яблоко.', '<b>Какой?</b> Весёлый кот.'],
             reflection: 'Прилагательное похоже на художника: оно добавляет предмету цвет или признак.',
+            legacyAsset: 'assets/images/existing/beginner-adjective.png',
             exercises: [
               { id: 'b-adjective-1', type: 'single', title: 'Подбери признак', instruction: 'Какое слово подходит к слову «яблоко»?', options: ['красное', 'бежит', 'мальчик'], answer: 'красное', hint: 'Спроси: яблоко какое?' },
               { id: 'b-adjective-2', type: 'single', title: 'Выбери прилагательное', instruction: 'Нажми на слово-признак.', options: ['весёлый', 'кот', 'спит'], answer: 'весёлый', hint: 'Признак отвечает на вопрос «какой?». ' },
@@ -56,6 +58,7 @@
             visual: { type: 'pairs', pairs: [['😴', 'кот спит'], ['🏃', 'мальчик бежит'], ['📖', 'девочка читает'], ['🐦', 'птица летит']] },
             examples: ['Кот <b>спит</b>. Что делает?', 'Птица <b>летит</b>. Что делает?'],
             reflection: 'Увидел действие — попробуй поставить вопрос «что делает?».',
+            legacyAsset: 'assets/images/existing/beginner-verb.png',
             exercises: [
               { id: 'b-verb-1', type: 'single', title: 'Слово-действие', instruction: 'Выбери глагол.', options: ['летит', 'птица', 'синий'], answer: 'летит', hint: 'Кто-то может это делать.' },
               { id: 'b-verb-2', type: 'sort', title: 'Предмет или действие?', instruction: 'Распредели слова по двум группам.', groups: ['Предмет', 'Действие'], items: [{label:'мяч', answer:'Предмет'}, {label:'бежит', answer:'Действие'}, {label:'книга', answer:'Предмет'}, {label:'рисует', answer:'Действие'}], hint: 'Действие можно показать движением.' },
@@ -70,6 +73,7 @@
             visual: { type: 'flow', nodes: ['👦 мальчик', 'он', '👧 девочка', 'она', '🧑 + 🧒', 'мы'] },
             examples: ['Алия читает. <b>Она</b> улыбается.', 'Я и друг играем. <b>Мы</b> вместе.'],
             reflection: 'Местоимения помогают говорить короче: Алия → она, Тимур → он.',
+            legacyAsset: 'assets/images/existing/beginner-pronoun.png',
             exercises: [
               { id: 'b-pronoun-1', type: 'single', title: 'Замени имя', instruction: 'Каким словом заменить имя «Алия»?', options: ['она', 'он', 'мы'], answer: 'она', hint: 'Алия — девочка.' },
               { id: 'b-pronoun-2', type: 'match', title: 'Он или она?', instruction: 'Выбери местоимение для каждого героя.', options: ['он', 'она'], items: [{label:'Айдар', answer:'он'}, {label:'Мадина', answer:'она'}, {label:'Дамир', answer:'он'}], hint: 'Подумай, мальчик это или девочка.' },
