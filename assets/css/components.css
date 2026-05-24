@@ -168,3 +168,23 @@ body[data-level="beginner"] .btn-primary { color: #3a3a3a; }
 .level-card.beginner .btn-primary { background: #ffb84d; color: #3a3a3a; }
 .level-card.researcher .btn-primary { background: #4f8cff; }
 .level-card.expert .btn-primary { background: #3b5bdb; }
+
+.legacy-panel {
+  margin-top: 24px;
+}
+
+.legacy-image-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 16px;
+  border-radius: 20px;
+}
+
+.legacy-image-wrap img {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.14);
+}
