@@ -263,9 +263,9 @@
     return '<section class="panel legacy-panel">' +
       '<div class="panel-title">' +
         '<span aria-hidden="true">🖼️</span>' +
-        '<h2>Дополнительная схема из предыдущей версии</h2>' +
+        '<h2>Дополнительная схема для легкого запоминания</h2>' +
       '</div>' +
-      '<p class="muted">Эта схема сохранена из первой версии тренажёра и помогает повторить тему в обобщённом виде.</p>' +
+      '<p class="muted">Используй схему как визуальную памятку для повторения основных признаков и правил по теме</p>' +
       '<div class="legacy-image-wrap">' +
         '<img src="' + esc(topic.legacyAsset) + '" alt="Дополнительная схема по теме «' + esc(topic.title) + '»" loading="lazy">' +
       '</div>' +
